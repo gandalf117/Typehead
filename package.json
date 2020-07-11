@@ -1,0 +1,16 @@
+{
+  "name": "Typehead",
+  "version": "1.0.0",
+  "author": {
+    "name": "Kiril Stoev",
+    "email": "kiril_ss@yahoo.com"
+  },
+  "scripts": {
+    "start": "http-server -p 1234",
+    "server": "json-server ./regions.json"
+  },
+  "dependencies": {
+    "http-server": "^0.12.3",
+    "json-server": "^0.16.1"
+  }
+}

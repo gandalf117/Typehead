@@ -1,0 +1,28 @@
+{
+    "regions": [
+        {
+            "name": "South Central",
+            "cities": ["Haskovo", "Kardzhali", "Pazardzhik", "Plovdiv", "Smolyan"]
+        },
+        {
+            "name": "South Western",
+            "cities": ["Blagoevgrad", "Kyustendil", "Pernik", "Sofia"]
+        },
+        {
+            "name": "South Eastern",
+            "cities": ["Burgas", "Sliven", "Stara Zagora", "Yambol"]
+        },
+        {
+            "name": "North Eastern",
+            "cities": ["Dobrich", "Shumen", "Targovishte", "Varna"]
+        },
+        {
+            "name": "North Central",
+            "cities": ["Gabrovo", "Razgrad", "Ruse", "Silistra", "Veliko Tarnovo"]
+        },
+        {
+            "name": "North Western",
+            "cities": ["Lovech", "Montana", "Pleven", "Vidin", "Vratsa"]
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typehead</title>
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Add styles -->
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="page-container">
+      <h2>Typehead search: try to look for a city or a region in Bulgaria</h2>
+      <div id="search-container">
+        <div id="search-input-container">
+          <i class="fa fa-search icon"></i>
+          <input type="text" pattern="[A-Za-z]" placeholder="Search here..." autocomplete="off" id="search" name="search">
+        </div>
+        <div id="suggestions-container">
+        </div>
+      </div>
+    </div>
+    <!-- Add javascript -->
+    <script src="main.js"></script>
+  </body>
+</html>

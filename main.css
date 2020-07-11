@@ -1,0 +1,56 @@
+.page-container {
+    width: 50%;
+    margin: 5% auto;
+}
+
+#search-container {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#search-input-container {
+    position: relative;
+    overflow: visible;
+}
+
+#search-input-container .icon {
+    position: absolute;
+    font-size: 16pt;
+    top: 8pt;
+    left: 8pt;
+}
+
+#search-input-container input {
+    padding: 8pt 8pt 8pt 32pt;
+    box-sizing: border-box;
+    line-height: 16pt;
+    width: 100%;
+}
+
+#search-input-container input:focus {
+    border-color: rgba(110, 192, 235, 0.8);
+    outline: 0 none;
+}
+
+#suggestions-container .region {
+    margin: 1rem 0;
+}
+
+#suggestions-container .region .title {
+    font-weight: bold;
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+#suggestions-container .region .city {
+    padding: 0.3rem 2rem;
+}
+
+#suggestions-container .region .city:hover {
+    cursor: pointer;
+    background: rgba(110, 192, 235, 0.8) !important;
+}
+
+#suggestions-container .region .city.selected {
+    background: lightgray;
+}
